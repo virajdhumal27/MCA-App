@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      HOME
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,105 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">HOME</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://getmyuni.azureedge.net/college-images-test/sardar-patel-institute-of-technology-spit-mumbai/ef57edf902aa46edbe9f1374b72b13c9.jpeg" />
+    <ion-card-header>
+      <ion-card-title>Welcome to MCA Department of Sardar Patel Institute of Technology</ion-card-title>
+      <ion-card-subtitle>S.P.I.T</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Right from it's first year in 2009, S.P.I.T. has been one of the sought college by students for MCA and is renown for its ongoing courses. Even though starting in year 2009 it has managed to excel quickly and with the highest cutoff this year it has shown a growth among the students all over.
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header">
+        <ion-label>
+          <ion-item color="success" class="accordion-item">
+            <ion-avatar slot="end">
+              <img alt="Silhouette of a person's head" src="https://icon-library.com/images/vision-icon-png/vision-icon-png-20.jpg" />
+            </ion-avatar>
+            <ion-label>
+              About Us
+            </ion-label>
+          </ion-item>
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-card color="success">
+          <ion-card-header>
+            <ion-card-title>
+              
+            </ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Card Content
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+
+
+    <ion-accordion value="second">
+      <ion-item slot="header">
+        <ion-label>
+          <ion-item color="warning" class="accordion-item">
+            <ion-avatar slot="end">
+              <img alt="Silhouette of a person's head" src="https://cdn.onlinewebfonts.com/svg/img_574468.png" />
+            </ion-avatar>
+            <ion-label>
+              Vision
+            </ion-label>
+          </ion-item>
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-card color="warning">
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Card Content
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="third">
+      <ion-item slot="header">
+        <ion-label>
+          <ion-item color="danger" class="accordion-item">
+            <ion-avatar slot="end">
+              <img alt="Silhouette of a person's head" src="https://static.thenounproject.com/png/4146551-200.png" />
+            </ion-avatar>
+            <ion-label>
+              Mission
+            </ion-label>
+          </ion-item>
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-card color="danger">
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Card Content
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>
