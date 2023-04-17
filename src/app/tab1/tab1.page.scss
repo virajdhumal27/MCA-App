@@ -1,21 +1,29 @@
+
+
 img{
     width: 500px;
 }
+
 h5{
     margin-top: 0px;
     text-align: center;
 }
+
 ion-card {
-    --background: #000;
-    --color: #9efff0;
+    --color: #ffffff;
 
 
   }
  
   ion-card-title {
-    --color: #52ffe4;
+    --color: #ffffff;
   }
  
   ion-card-subtitle {
-    --color: #d1fff8;
+    --color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  .accordion-item {
+    border-radius: 10px;
   }
