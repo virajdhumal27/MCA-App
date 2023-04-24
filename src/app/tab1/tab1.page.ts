@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { IonContent, IonicModule } from '@ionic/angular';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 import { Router } from '@angular/router';
 
