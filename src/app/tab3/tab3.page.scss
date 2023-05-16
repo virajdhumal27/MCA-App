@@ -35,3 +35,31 @@
     border-radius: 8px;
     background-color: green;
 }
+
+.rating-list {
+    display: inline-block;
+    list-style: none;
+
+    li {
+        font-size: 20px;
+        float: right;
+        color: #ddd;
+        padding: 5px 1px;
+    }
+
+    li:hover {
+        color: #ffd700;
+    }
+
+    li:hover~li {
+        color: #ffd700;
+    }
+
+    li.selected {
+        color: #ffd700;
+    }
+}
+
+h2 {
+    font-size: 10px;
+}

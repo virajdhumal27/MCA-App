@@ -52,6 +52,14 @@
             <ion-item>
               <ion-textarea label="Feedback" [autoGrow]="true" labelPlacement="floating" fill="outline" placeholder="Enter your feedback here!"></ion-textarea>
             </ion-item>
+            <ion-item>
+              <h2>Rate us</h2>
+              <ul class="list-inline rating-list" *ngFor="let star of stars; let i= index">
+                <li (click)="countStar(star)" [ngClass]="{'selected': (star <= selectedValue)}" (mouseover)="addClass(star)"
+                     (mouseout)="removeClass()"> <span class="material-icons"> <ion-icon name="star"></ion-icon> </span>
+                </li>
+            </ul>
+            </ion-item>
           
           </ion-list>
         </ion-list>
